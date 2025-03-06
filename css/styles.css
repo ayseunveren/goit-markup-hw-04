@@ -495,9 +495,7 @@ img {
 .our-portfolio-link:hover .overlay-text {
     transform: translateY(0%);
 }
-.ourportfolio-text {
-    transform: translateY(100%);
-}
+
 .social-media-list {
     justify-content: center;
     gap: 24px;
@@ -527,6 +525,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-media-linkk:hover {
     background-color: #31d0aa;
