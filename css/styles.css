@@ -471,13 +471,13 @@ img {
 .social-media-icon {
     fill: #F4F4FD;
 }
-our-portfolio-link:hover {
+.our-portfolio-link:hover {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
-our-portfolio-link {
+.our-portfolio-link {
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-our-portfolio-link:hover .overlay-text {
+.our-portfolio-link:hover .overlay-text {
     transform: translateY(0%);
 }
 .ourportfolio-text {
@@ -499,4 +499,13 @@ our-portfolio-link:hover .overlay-text {
 }
 .nav::after {
     width: 100%;
+}
+.social-media-listt {
+    gap: 16px;
+}
+.social-media-linkk:hover {
+    background-color: #31d0aa;
+}
+.social-media-linkk:focus {
+    background-color: #31d0aa;
 }
