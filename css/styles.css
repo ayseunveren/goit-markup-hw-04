@@ -187,7 +187,7 @@ header a {
     margin: 0 auto;
 }
 .cont-header {
-    padding: 0 0 24px 0;
+    padding: 24px 0;
     display: flex;
     justify-content: space-between; 
 }
@@ -278,6 +278,11 @@ header a {
 .icon {
     width: 40px;
     height: 40px;
+}
+
+.icon-portfolio {
+    width: 264px;
+    height: 112px;
 }
 
 .cont-4 {
