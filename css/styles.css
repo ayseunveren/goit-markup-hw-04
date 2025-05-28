@@ -15,6 +15,7 @@ body {
     font-weight: 400;
 
     margin: 0;
+    
 }
 
 img {
@@ -36,6 +37,7 @@ header a {
     width: 169px;
     height: 56px;
     border: none;
+    border-radius: 4px;
 }
 .button:hover {
     background: rgba(64, 75, 191, 1);
@@ -49,11 +51,11 @@ header a {
     color: rgba(64, 75, 191, 1);
 }
 
-.a-nav {
+.a-nav-studio {
     position: relative;
 }
 
-.a-nav:hover::after {
+.a-nav-studio::after {
     position: absolute;
     content:"";
     bottom: -24px;
@@ -140,6 +142,7 @@ header a {
 
 .header {
     border-bottom: 1px solid rgba(255, 255, 255, 1);
+    
 }
 
 .section1 {
@@ -184,7 +187,7 @@ header a {
     margin: 0 auto;
 }
 .cont-header {
-    padding: 24px 0;
+    padding: 0 0 24px 0;
     display: flex;
     justify-content: space-between; 
 }
@@ -346,3 +349,14 @@ header a {
     transform: translateY(0);
 }
 
+.icon-ourteam, .footer-icon {
+    fill: rgba(77, 90, 229, 1);
+}
+
+.link-socialmedia:hover .icon-ourteam {
+    fill: rgba(64, 75, 191, 1);
+}
+
+.footer-link:hover .footer-icon {
+    fill: rgba(49, 208, 170, 1);
+}
